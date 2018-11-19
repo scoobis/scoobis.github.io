@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<ul class="newpost">
+        <h2>Senaste blogg inlägget</h2>
+    {% for post in site.posts limit:1 %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="post_desc">
+        {{ post.description }}
+    </span>
+    </li>
+    {% endfor %}
+</ul>
+
+<section class="old-post">
+    <h2>Gammla inlägg</h2>
+        <ul class="myposts">
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                <span class="post_desc">
+                    {{ post.description }}
+                </span>
+                </li>
+                {% endfor %}
+            </ul>
+</section>

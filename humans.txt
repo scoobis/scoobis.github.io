@@ -1,0 +1,21 @@
+/* TEAM */
+
+                            
+Your title: Gabriel Björlin.
+
+                            
+Site: email, link to a contact form, etc.
+
+                            
+Twitter: your Twitter username.
+
+           ----
+
+               /* SITE */
+
+                            
+Last update: 1998/11/19
+
+                            
+Standards: HTML5, CSS3, javascript
+         

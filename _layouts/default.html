@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Min sida</title>
+    <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website"
+    <meta property="og:image" content="https://www.google.se/search?hl=sv&authuser=0&tbm=isch&source=hp&biw=1536&bih=754&ei=bgHzW4KGFsaqsgH-sbuwBA&q=walpaper&oq=walpaper&gs_l=img.3..0i10j0i10i30l9.3229.4500..4637...0.0..1.163.901.4j4......3....1..gws-wiz-img.....0..0.bX_ev6j75RM#imgrc=fmwzfAGS6oinCM:">
+</head>
+<body>
+    <div class="title">
+    <h1> {{ page.title }} </h1>
+    <p class="subTitle"> {{page.description}} </p>
+</div>
+
+<div class="nav">
+<ul>
+    <li><a href="/index.html">Först sidan</a></li>
+    <li><a href ="/omMig.html">Om mig</a></li>
+    <li></li>
+</ul>
+</div>
+
+{{ content }}
+
+<footer>
+    <p>Här är det en footer</p>
+</footer>
+
+</body>
+
+</html>
